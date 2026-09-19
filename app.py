@@ -132,7 +132,7 @@ if page == 'Home' :
         required_experience = st.selectbox("Required Experience :",['Internship' ,'Not Applicable' ,'Unknown', 'Mid-Senior level', 'Associate',
             'Entry level' ,'Executive', 'Director'],index=None,placeholder='Select Required Experience...') or 'Unknown'
 
-    if st.button('Analyze Job Posting') :
+    if st.button('🔍 Analyze Job Posting') :
 
         if vectorizer is None or model is None:
             st.error("Model pipeline is inactive.")
