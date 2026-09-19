@@ -9,7 +9,7 @@
 
 **This project develops an AI-based classification system to distinguish between legitimate and potentially fraudulent job postings by analyzing textual and structured information from job advertisements.**
 
-### Three different approaches are explored:
+## 🚀 Three different approaches are explored:
 
 ### 🤖 Version A: Traditional Machine Learning Models
 
