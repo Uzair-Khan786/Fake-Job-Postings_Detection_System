@@ -111,11 +111,12 @@
 
 ### The three approaches were evaluated on the ~16K-row dataset.
 
-Version	Approach / Model	Accuracy	Precision	Recall	F1-Score
-🟦 A	Machine Learning Models	~99%	~93%	~92%	~92%
-🟩 B	Deep Learning — BiLSTM	~99%	~93%	~91%	~92%
-🟪 C	BERT Fine-Tuning	~98%	~93%	~76%	~84%
-📈 Results
+
+| Version | Approach / Model | Accuracy | Precision | Recall | F1-Score |
+|:-------:|:-----------------|:--------:|:---------:|:------:|:--------:|
+| **🟦 Version A** | Machine Learning (SVC) | **~99%** | **~93%** | **~92%** | **~92%** |
+| **🟩 Version B** | Deep Learning (BiLSTM) | **~99%** | **~93%** | **~91%** | **~92%** |
+| **🟪 Version C** | BERT Fine-Tuning | **~98%** | **~93%** | **~76%** | **~84%** |
 
 **The ML and BiLSTM approaches achieved approximately 99% accuracy with balanced precision, recall, and F1-scores. BERT achieved approximately 98% accuracy and 93% precision, while its recall was comparatively lower on this dataset.**
 
